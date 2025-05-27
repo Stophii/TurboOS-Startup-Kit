@@ -63,7 +63,7 @@ turbo::go! {
 ```
 >💡 **Tip** 💡 Try not to overlap names, if that name exists it'll error out!
 
-Make sure you come up with a different PROGRAM_ID than `mulitplayer-game`. This is also how it'll show up in the TurboOS Terminal!
+Make sure you come up with a different `PROGRAM_ID` than `mulitplayer-game`. This is also how it'll show up in the TurboOS Terminal!
 
 ## User ID and running TurboOS
 
@@ -82,6 +82,8 @@ and make some changes so it looks like this in our terminal
 turbo run -w --user c5414b77-a2bb-461a-8ce5-cde71fccde0d --program-id multiplayer-game
 ```
 >💡 **Tip** 💡 The `user_id` is the `c5414b77-a2bb-461a-8ce5-cde71fccde0d` but this will be specific to you on your dashboard at [os.turbo.computer](https://os.turbo.computer/dashboard) if you try to enter the same ID it won't work!
+
+>💡 **Tip** 💡 The `program-id` is the `multiplayer-game` but you'll need to put your specific program ID you set above. If you try to enter a different ID it won't work!
 
 Then in the terminal it'll prompt you by asking you for the `one-time code`.
 
