@@ -9,7 +9,7 @@ Learn how to easily integrate TurboOS to your Turbo Games! After following this 
 
 ## Getting Set Up
 
-Heading into your `Turbo.toml` file and making sure it has this line of code
+Head into your `Turbo.toml` file and make sure it has this line of code
 
 ```rust
 [turbo-os]
@@ -63,7 +63,7 @@ turbo::go! {
 ```
 >💡 **Tip** 💡 Try not to overlap names, if that name exists it'll error out!
 
-Make sure you come up with a different `PROGRAM_ID` than `mulitplayer-game`. This is also how it'll show up in the TurboOS Terminal!
+Make sure you come up with a different `PROGRAM_ID` than `multiplayer-game`. This is also how it'll show up in the TurboOS Terminal!
 
 ## User ID and running TurboOS
 
@@ -95,7 +95,7 @@ If you don't get any errors in the terminal you should see your project open and
 
 ## Backend and Frontend
 
-Now that we have our project and were connected to TurboOS lets test it! I recommend making a `backend.rs` and we'll use that as the place to put our TurboOS specific functions.
+Now that we have our project and we're connected to TurboOS, let's test it!! I recommend making a `backend.rs` and we'll use that as the place to put our TurboOS specific functions.
 
 To make a `backend.rs` just right click the src folder in Visual Studio Code and select `new file` and name it `backend.rs`
 
@@ -156,5 +156,5 @@ and inside of it you'll see the functions being called and the ID of the player 
 
 <img width="1144" alt="Screenshot 2025-05-26 at 7 28 34 PM" src="https://github.com/user-attachments/assets/464d906f-8645-479d-8715-539b9a9adc6a" />
 
-Now you're setup with Turbo OS and can add in specific functions like multiplayer, leaderboards, or achievements! Whatever you decide to do I'll have a part two guide going over what some functions for those might look like! Thanks for reading!
+Now you're set up with Turbo OS and can add in specific functions like multiplayer, leaderboards, or achievements! Whatever you decide to do I'll have a part two guide going over what some functions for those might look like! Thanks for reading!
 
